@@ -12,3 +12,56 @@ img,
 video {
   display: block;
 }
+
+body {
+  font-family: "Roboto";
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: fff;
+  width: 340px;
+  margin: 20px;
+  border-radius: 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.coffee {
+  width: 340px;
+  padding: 15 15 0 15px;
+}
+
+.description {
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 35px;
+  padding: 0 15 0 15px;
+}
+
+.photo-profil {
+  width: 56px;
+}
+
+.utilisateur {
+  display: flex;
+  gap: 20px;
+  padding: 0 15 15 15px;
+}
+
+.description-profil {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nom {
+  font-size: 20px;
+  line-height: 24px; /* 120% */
+}
+.date {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  line-height: 19px; /* 118.75% */
+}
